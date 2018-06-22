@@ -6,7 +6,16 @@ def fourth_challenge
       :hero => {name: "Romeo", age: "15", status: "alive"},
       :hero_friends => [
         #your hashes here!
-        benvolio
+        benvolio = {
+          name: 'Benvolio',
+          age: '17',
+          attitude: 'worried'
+        },
+        mercutio = {
+          name: 'Mercution',
+          age: '18',
+          attitude: 'hot-headed'
+        }
       ]
    }, 
    :capulet => {
